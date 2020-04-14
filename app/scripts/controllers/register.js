@@ -524,25 +524,25 @@
       case 'BME680_IAQ':
         icon = 'osem-barometer';
         title = 'Innenraumluftqualität (IAQ)';
-        unit = '?';
+        unit = '_';
         sensorType = 'BME680';
         break;
       case 'BME680_CALIBRATION':
         icon = 'osem-barometer';
         title = 'Kalibrierungswert';
-        unit = '?';
+        unit = '_';
         sensorType = 'BME680';
         break;
       case 'BME680_CO2':
         icon = 'osem-barometer';
         title = 'CO2 Äquivalent';
-        unit = '?';
+        unit = 'ppm';
         sensorType = 'BME680';
         break;
       case 'BME680_VOC':
         icon = 'osem-barometer';
         title = 'Atemluft VOC Äquivalent';
-        unit = 'kΩ';
+        unit = 'ppm';
         sensorType = 'BME680';
         break;
       case 'PM25':
